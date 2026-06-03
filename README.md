@@ -1,3 +1,36 @@
+# Dasuni Navodya - Portfolio Website
+
+A modern personal portfolio website built with React to showcase my skills, projects, and experience as a Software Engineering undergraduate.
+
+## Features
+- Responsive design
+- About Me section
+- Projects section
+- Contact section
+
+## Technologies Used
+- React
+- CSS
+- JavaScript
+
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/dasuni222/portfolio.git
+
+2. Install dependencies
+
+npm install
+
+3. Run the project
+
+npm run dev
+
+## Author
+Dasuni Navodya Rajapakshe
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
