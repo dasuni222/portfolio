@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0f172a;
   color: white;
   font-family: Arial, sans-serif;
 }
+
+/* Navbar */
 
 nav {
   display: flex;
@@ -16,6 +22,12 @@ nav {
   align-items: center;
   padding: 25px 80px;
   background-color: #1e293b;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: #38bdf8;
 }
 
 nav ul {
@@ -26,7 +38,14 @@ nav ul {
 
 nav li {
   cursor: pointer;
+  transition: 0.3s;
 }
+
+nav li:hover {
+  color: #38bdf8;
+}
+
+/* Sections */
 
 section {
   padding: 80px;
@@ -41,16 +60,21 @@ h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #38bdf8;
+  text-align: center;
 }
 
 h3 {
   margin-bottom: 15px;
+  color: #cbd5e1;
 }
 
 p {
   line-height: 1.8;
   margin-bottom: 15px;
+  color: #d1d5db;
 }
+
+/* Button */
 
 button {
   background: #38bdf8;
@@ -60,20 +84,56 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.3s;
 }
 
-ul {
-  margin-top: 15px;
+button:hover {
+  transform: translateY(-3px);
+  background: #0ea5e9;
 }
 
-li {
-  margin-bottom: 10px;
-}
+/* Hero Section */
 
 .hero {
   text-align: center;
-  padding: 40px 20px;
+  padding: 80px 20px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.hero img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #38bdf8;
+  margin: 0 auto 25px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+/* Skills */
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skills-list span {
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #38bdf8;
+}
+
+/* Projects */
 
 .projects-container {
   display: grid;
@@ -85,18 +145,19 @@ li {
   background: #1e293b;
   padding: 25px;
   border-radius: 12px;
+  transition: 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  transition: 0.3s;
 }
 
-.hero img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #38bdf8;
-  margin-bottom: 25px;
+.project-card h3 {
+  color: #38bdf8;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
 }
