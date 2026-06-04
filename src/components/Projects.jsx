@@ -13,7 +13,7 @@ function Projects() {
             suppliers and buyers through a smart digital platform.
           </p>
 
-          <p><strong>Role:</strong> Business Analyst</p>
+          <p><strong>Role:</strong> Software Developer and UI /UX Designer</p>
 
           <p>
             <strong>Technologies:</strong> React, Node.js,
