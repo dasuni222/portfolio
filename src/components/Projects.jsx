@@ -19,6 +19,12 @@ function Projects() {
             <strong>Technologies:</strong> React, Node.js,
             Firebase, AI Integration
           </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/tradexs.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
         </div>
 
         <div className="project-card">
@@ -35,6 +41,12 @@ function Projects() {
             <strong>Technologies:</strong> Java, OOP,
             DFS Algorithm, Data Structures
           </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/graph-algorithm-analyzer.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
         </div>
 
         <div className="project-card">
@@ -51,6 +63,72 @@ function Projects() {
             <strong>Technologies:</strong> Python,
             Data Analysis, Computer Vision
           </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/vehicle-traffic-analysis-system.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Robot Simulink Creation (Individual Project)</h3>
+
+          <p>
+            Designed and simulated a two-robot cooperative control system using Simulink to model coupled train coach dynamics.
+          </p>
+
+          <p><strong>Role:</strong> Individual Project Developer</p>
+
+          <p>
+            <strong>Technologies:</strong> Simulink, PID Control, Robotics, System Dynamics
+          </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/robot-simulink-creation.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Design A Robust Relational Database Schema Using UML Notation</h3>
+
+          <p>
+            Created detailed data dictionaries covering entities, relationships, specializations, attributes, and business rules aligned with real-world constraints.
+          </p>
+
+          <p><strong>Duration:</strong> September, 2025 - January, 2026</p>
+
+          <p>
+            <strong>Technologies:</strong> UML, Database Design, ER Modeling, Data Dictionary
+          </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/robust-relational-database-schema.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Software Engineering Principles Research (Individual Project)</h3>
+
+          <p>
+            Software engineering project involving requirement analysis, UML modelling, and system architecture design based on client requirements.
+          </p>
+
+          <p><strong>Duration:</strong> September, 2025 - January, 2026</p>
+
+          <p>
+            <strong>Technologies:</strong> UML, Requirement Analysis, System Design, Architecture
+          </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/software-engineering-principles-research.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
         </div>
 
         <div className="project-card">
@@ -67,6 +145,12 @@ function Projects() {
             <strong>Technologies:</strong> HTML,
             CSS, JavaScript
           </p>
+
+          <div className="project-actions">
+            <a className="project-link" href="/projects/life-under-water.html" target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
         </div>
 
       </div>

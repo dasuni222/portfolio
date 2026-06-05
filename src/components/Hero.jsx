@@ -3,7 +3,7 @@ import profile from "../assets/profile.jpeg";
 function Hero() {
   return (
     <section className="hero">
-      <img src={profile} alt="Dasuni" />
+      <img src={profile} alt="Dasuni Navodya Rajapakshe" className="hero-profile" />
 
       <h1>Dasuni Navodya Rajapakshe</h1>
 
