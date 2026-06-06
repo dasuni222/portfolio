@@ -1,4 +1,6 @@
 function Projects() {
+  const basePath = import.meta.env.BASE_URL;
+
   return (
     <section id="projects">
       <h2>Projects</h2>
@@ -21,7 +23,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/tradexs.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/tradexs.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -43,7 +45,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/graph-algorithm-analyzer.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/graph-algorithm-analyzer.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -65,7 +67,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/vehicle-traffic-analysis-system.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/vehicle-traffic-analysis-system.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -85,7 +87,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/robot-simulink-creation.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/robot-simulink-creation.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -105,7 +107,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/robust-relational-database-schema.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/robust-relational-database-schema.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -125,7 +127,7 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/software-engineering-principles-research.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/software-engineering-principles-research.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
@@ -147,7 +149,29 @@ function Projects() {
           </p>
 
           <div className="project-actions">
-            <a className="project-link" href="/projects/life-under-water.html" target="_blank" rel="noreferrer">
+            <a className="project-link" href={`${basePath}projects/life-under-water.html`} target="_blank" rel="noreferrer">
+              View unique page
+            </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <h3>Sri Lanka Attraction Places</h3>
+
+          <p>
+            Responsive travel website showcasing famous beaches, cultural heritage,
+            wildlife adventures, and scenic highlights across Sri Lanka.
+          </p>
+
+          <p><strong>Role:</strong> Frontend Developer</p>
+
+          <p>
+            <strong>Technologies:</strong> Next.js, React,
+            TypeScript, CSS
+          </p>
+
+          <div className="project-actions">
+            <a className="project-link" href={`${basePath}projects/sri-lanka-attraction-places.html`} target="_blank" rel="noreferrer">
               View unique page
             </a>
           </div>
