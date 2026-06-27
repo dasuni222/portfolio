@@ -1,17 +1,21 @@
-﻿function App() {
+﻿import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
+function App() {
   return (
-    <div style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center", 
-      height: "100vh",
-      fontSize: "48px",
-      fontWeight: "bold",
-      color: "#4CAF50"
-    }}>
-      🚀 DASUNI PORTFOLIO IS WORKING! 🚀
-    </div>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
+  );
 }
 
-export default App
+export default App;
