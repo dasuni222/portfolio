@@ -1,18 +1,32 @@
+const SKILLS = [
+  "Java",
+  "Python",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "JavaScript",
+  "MySQL",
+  "Firebase",
+  "Git & GitHub",
+];
+
 function Skills() {
   return (
-    <section id="skills">
-      <h2>Skills</h2>
+    <section id="skills" className="skills section">
+      <div className="container">
+        <div className="section-header section-header--center">
+          <span className="section-label">Skills</span>
+          <h2 className="section-title">Technologies</h2>
+          <div className="section-divider section-divider--center" />
+        </div>
 
-      <div className="skills-list">
-        <span>Java</span>
-        <span>Python</span>
-        <span>React.js</span>
-        <span>Next.js</span>
-        <span>Node.js</span>
-        <span>JavaScript</span>
-        <span>MySQL</span>
-        <span>Firebase</span>
-        <span>Git & GitHub</span>
+        <ul className="skills-grid">
+          {SKILLS.map((skill) => (
+            <li key={skill}>
+              <span className="badge">{skill}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
